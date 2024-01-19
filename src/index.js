@@ -18,8 +18,6 @@ connectDB()
     console.log("MONGO db connection failed !! ", error);
   });
 
-//!
-
 //!another approach to connect db
 
 // import mongoose from "mongoose";
