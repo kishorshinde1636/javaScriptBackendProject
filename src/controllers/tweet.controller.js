@@ -64,10 +64,6 @@ const getUserTweet = asyncHandler(async (req, res) => {
 });
 
 const deleteTweet = asyncHandler(async (req, res) => {
-  // const tweets = await Tweet.find({ userId: userId });
-
-  // res.send(tweets.content);
-
   const { tweetId } = req.params;
   console.log(tweetId);
 
